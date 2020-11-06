@@ -1,0 +1,131 @@
+
+body{
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather Sans', sans-serif;
+}
+
+h1{
+  margin: 50px 0;
+  font-size: 90px;
+  font-family: 'Dancing Script', cursive;
+  color: #66BFBF;
+  line-height: 2;
+}
+
+h2{
+ font-size: 2.5rem;
+ color: #66BFBF;
+ font-weight: normal;
+}
+
+h3{
+  color: #11999E;
+}
+
+h2,h3{
+  font-family: 'Montserrat',sans-serif;
+}
+p{
+  font-size: 1.2em;
+  color: #40514E;
+}
+
+a{
+  color: #11999E;
+}
+
+hr {
+  border:none;
+  border-top:1px dotted #EAF6F6;
+  color:#EAF6F6;
+  background-color:#fff;
+  height:15px;
+  width:10%;
+  border-width: 10px;
+  margin: 120px auto;
+}
+
+.top-container{
+  background-color: #EAF6F6;
+  padding: 14px;
+  position: relative;
+  padding-top: 100px;
+}
+
+.bottom-container{
+  background-color: #66BFBF;
+  padding: 30px;
+}
+
+.my-photo{
+  height: 240px;
+  border-radius: 50%;
+}
+
+.computer{
+  width: 35%;
+  border-radius: 50%;
+  float: left;
+  margin-right: 30px;
+}
+
+.bottom-cloud{
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.top-cloud{
+  position: absolute;
+  right: 250px;
+  top: 50px;
+}
+
+.pro{
+  text-decoration: underline;
+}
+
+
+.skill-row{
+  width: 50%;
+  margin: 100px auto;
+  line-height: 2;
+}
+
+
+.myButton {
+	box-shadow: 0px 1px 12px 2px #276873;
+	background-color:#599bb3;
+	border-radius:28px;
+	border:1px solid #3590cc;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:17px 34px;
+	text-decoration:none;
+	text-shadow:-1px 4px 3px #3d768a;
+}
+.myButton:hover {
+	background-color:#408c99;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.container{
+  margin: 50px auto;
+}
+
+.footer{
+  color: #EAF6F6;
+}
+
+.footer-link{
+  padding: 10px 15px;
+  text-decoration: none;
+}
